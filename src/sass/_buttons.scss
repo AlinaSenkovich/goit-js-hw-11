@@ -1,0 +1,28 @@
+.btn-container {
+    position: relative;
+    height: 100%;
+  
+    & .load-more,
+    .close-btn {
+      position: button;
+      margin-right: auto;
+      margin-left: auto;
+      width: 120px;
+      height: 30px;
+      right: 30px;
+      background: #fff;
+      border-radius: 3px;
+      border: 1px solid #444;
+      &:hover {
+        color: rgb(252, 246, 246);
+        background: rgb(121, 128, 226);
+        border: 1px solid #444;
+      }
+    }
+    & .load-more {
+      bottom: 20px;
+    }
+    & .close-btn {
+      bottom: 80px;
+    }
+  }
